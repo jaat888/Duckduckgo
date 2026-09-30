@@ -4,7 +4,7 @@ from duckduckgo_search import DDGS
 app = Flask(__name__)
 
 # Yahan aap apni pasand ki koi bhi secret API key set kar sakte hain
-MY_SECRET_KEY = "sk-jaat-786xyz"
+MY_SECRET_KEY = "sk-jaat"
 
 @app.route('/api/chat', methods=['GET', 'POST'])
 def chat_api():
